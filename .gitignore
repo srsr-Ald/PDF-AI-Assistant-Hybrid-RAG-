@@ -216,5 +216,21 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
+# API keys and secrets
+.env
+.env.*
+
+# Runtime data and logs
+*.jsonl
+week4_openai_clean/
+uploads/
+
+# Private test documents
+*.pdf
+
+# Python cache
+__pycache__/
+*.pyc
+
 # Streamlit
 .streamlit/secrets.toml
